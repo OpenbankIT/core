@@ -428,7 +428,7 @@ main(int argc, char* const* argv)
         {
             SecretKey key = SecretKey::random();
             std::cout << "Secret seed: " << key.getStrKeySeed() << std::endl;
-            std::cout << "Public: " << key.getStrKeyPublic() << std::endl;
+            std::cout << "Public key: " << key.getStrKeyPublic() << std::endl;
             return 0;
         }
         case OPT_CHECKSEED:
